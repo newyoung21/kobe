@@ -8,6 +8,7 @@ var waterfall = {
 		this.$main = $('.main');
 		this.bind();
 		this.array();
+		this.gg();
 	},
 
 	bind : function(){
