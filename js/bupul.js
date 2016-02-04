@@ -76,4 +76,4 @@ var waterfall = {
 
 setTimeout(function(){
 	waterfall.init($(".main .item"));
-},1000);
+},3000);

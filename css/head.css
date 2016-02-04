@@ -92,5 +92,12 @@ body{
         -o-transform-origin: 50% 100%;
 	}
 
-
+#buffer{
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    background-color: red;
+    z-index: 1000;
+   -webkit-transition: height 10s,  opacity 20s;
+}
 

@@ -10,6 +10,7 @@
 <link rel="stylesheet" type="text/css" href="css/content.css">
 </head>
 <body>
+	<div id ="buffer"></div>
     <div id = "head">
     	<div class = "clock">
     		 <div class=" trans dian"></div>
@@ -75,5 +76,16 @@
 <script src="js/xz.js"></script>
 <script src="js/bupul.js"></script>
 <script src="js/sea.js"></script>
-
+<script type="text/javascript">
+	function dd(){
+  if(1>0){
+  	console.log(1);
+    $('#buffer').css({
+    	height : '0px',
+    	opacity : 0
+    });
+  }
+}
+dd();
+</script>
 </html>
