@@ -8,7 +8,6 @@ var waterfall = {
 		this.$main = $('.main');
 		this.bind();
 		this.array();
-		this.gg();
 	},
 
 	bind : function(){
@@ -40,10 +39,10 @@ var waterfall = {
 					top: min+"px"
 				});
 		        this.colHeight[idx] += this.$img.eq(i).outerHeight(true);
-		        this.gg();
+		        
 			}
 		}
-		
+		this.gg();
 	},
 
 	setHeight : function($arr){
