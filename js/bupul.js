@@ -8,6 +8,7 @@ var waterfall = {
 		this.$main = $('.main');
 		this.bind();
 		this.array();
+		this.gg();
 	},
 
 	bind : function(){
@@ -42,7 +43,7 @@ var waterfall = {
 		        
 			}
 		}
-		this.gg();
+		
 	},
 
 	setHeight : function($arr){
@@ -73,4 +74,6 @@ var waterfall = {
 
 } 
 
-waterfall.init($(".main .item"));
+setTimeout(function(){
+	waterfall.init($(".main .item"));
+},3000);
