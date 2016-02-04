@@ -21,7 +21,7 @@ var waterfall = {
 
 	array : function(){
 		var imgH = this.$img.outerWidth(true);
-			mainH = this.$main.outerWidth();
+			mainH = this.$main.width();
 			colmun = Math.floor(mainH/imgH);
 		for(i = 0; i<this.$img.length; i++){
 			if(i<colmun){
@@ -37,7 +37,7 @@ var waterfall = {
 		            min = obj.min;
 		        this.$img.eq(i).css({
 					left: idx * imgH+"px",
-					top: min
+					top: min+"px"
 				});
 		        this.colHeight[idx] += this.$img.eq(i).outerHeight(true);
 		        this.gg();
