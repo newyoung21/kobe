@@ -1,0 +1,96 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+#head{
+		background-color: darkorange;
+}
+.clock{
+	    width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        background-image: url(../image/clock.gif);
+        background-size: cover;
+        background-position: -4px 2px;
+        position: relative;
+        float: left;
+	}
+
+.dian{
+    	width: 10px;
+    	height: 10px;
+    	border-radius: 5px;
+    	background-color: black;
+    	position: absolute;
+    	margin: auto;
+    	left: 0;
+    	right: 0;
+    	top:0;
+    	bottom: 0;
+    }
+
+.second{
+		width: 3px;
+		height: 65px;
+		position: relative;
+    	background-color: rgba(230, 120, 88, 0.83);
+    	margin: 0 auto;
+    	top: 35px;
+    	z-index: 6;
+	}
+
+.minute{
+		background-size: cover;
+		background-image: url(../image/s.gif);
+		width: 12px;
+		height: 60px;
+		position: absolute;
+    	margin: auto;
+    	left: 0;
+    	right: 0;
+    	top: 40px;
+    	z-index: 5;
+	}
+
+.hour{
+		background-image: url(../image/yy.gif);
+        width: 12px;
+        height: 40px;
+        position: absolute;
+        margin: auto;
+        top: 60px;
+        left: 0;
+    	right: 0;
+	}
+.countdown{
+		height: 200px;
+		margin-left: 200px;
+
+}
+
+.k{
+     	font-family: "华文彩云";
+     	text-align: center;
+     	font-size: 32px;
+     	margin: 0 0;
+     	padding-top: 65px;
+     	color: #0E0E0E;
+ }
+.time{
+   		font-family: cursive;
+   		font-size: 24px;
+   		color: white;
+   		text-align: center;
+ }
+
+ .trans{
+		transform-origin: 50% 100%;
+        -ms-transform-origin: 50% 100%;
+        -webkit-transform-origin: 50% 100%;
+        -moz-transform-origin: 50% 100%;
+        -o-transform-origin: 50% 100%;
+	}
+
+
+
