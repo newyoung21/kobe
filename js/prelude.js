@@ -3,9 +3,10 @@
 var prelude = {
 	init : function(){
 		this.$zi = $('.zi');
-		this.bb();
 		this.bind();
+		this.bb();
 		this.cc();
+		this.setHeight();
 	},
 
 	bb : function(){
@@ -35,6 +36,10 @@ var prelude = {
 		setTimeout(function(){
 			$('.zi').css('display','none');
 		},7000);
+	},
+	setHeight : function(){
+		var Height = $(window).height();
+		$('#prelude').css('height',Height);
 	}
 }
 
