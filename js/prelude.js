@@ -38,7 +38,8 @@ var prelude = {
 		},7000);
 	},
 	setHeight : function(){
-		var Height = $(window).height();
+		var Height ="700px";
+		Height=$(window).height();
 		$('#prelude').css('height',Height);
 	}
 }
