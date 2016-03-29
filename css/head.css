@@ -94,6 +94,7 @@ body{
 
 #prelude{
     width: 100%;
+    
     position:fixed;
     background-color: black;
     z-index: 1000;
